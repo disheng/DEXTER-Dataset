@@ -18,7 +18,7 @@ following folders:
 
 This dataset is complemental to the [DEXTER Specifications extraction](https://github.com/disheng/DEXTER) repository previously published.
 
-## Data [Link](https://s3-eu-west-1.amazonaws.com/dexter-pages/data/)
+## Data
 	Under /data/*
 	
 The folder is organised in subfolder, a subfolder for each crawled website. 
@@ -33,7 +33,9 @@ An example is:
 3.txt 	http://www.sample_website.com/productCCCC
 </pre>
 
-## Dexter Sources [Link] (https://s3-eu-west-1.amazonaws.com/dexter-pages/dexter_sources/)
+Example of index file [Link](https://s3-eu-west-1.amazonaws.com/dexter-pages/data/shopping.com/index.txt)
+
+## Dexter Sources
 
 	Under /dexter_sources/*
 
@@ -48,6 +50,8 @@ File contains for each website a map with the following information:
 1. "\<website_name>": list of pages urls
 2. "entry_page": list of category entry page
 3. "pages_number": number of pages
+
+Example of Dexter category file [Link](https://s3-eu-west-1.amazonaws.com/dexter-pages/dexter_sources/camera_dstore.com.json)
 
 ## Dataset Local Categories [Link](https://s3-eu-west-1.amazonaws.com/dexter-pages/dataset_local_categories.json)
 	In dataset_local_categories.json
