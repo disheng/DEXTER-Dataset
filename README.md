@@ -18,8 +18,8 @@ following folders:
 
 This dataset is complemental to the [DEXTER Specifications extraction](https://github.com/disheng/DEXTER) repository previously published.
 
-## Data
-	Under (/data/*)(https://s3-eu-west-1.amazonaws.com/dexter-pages/data/)
+## Data [Link](https://s3-eu-west-1.amazonaws.com/dexter-pages/data/)
+	Under /data/*
 	
 The folder is organised in subfolder, a subfolder for each crawled website. 
 Pages of a given website are stored as .gz files. Pages are stored with an incremental file number \<i>.txt.gz and the mapping between dumped file and original url is under an index.txt file. 
@@ -33,9 +33,9 @@ An example is:
 3.txt 	http://www.sample_website.com/productCCCC
 </pre>
 
-## Dexter Sources
+## Dexter Sources [Link] (https://s3-eu-west-1.amazonaws.com/dexter-pages/dexter_sources/)
 
-	Under [/dexter_sources/*](https://s3-eu-west-1.amazonaws.com/dexter-pages/dexter_sources/)
+	Under /dexter_sources/*
 
 We provide also the output of the Dexter classification. 
 Page urls are grouped in sources (pair \<category,website>),
@@ -49,8 +49,8 @@ File contains for each website a map with the following information:
 2. "entry_page": list of category entry page
 3. "pages_number": number of pages
 
-## Dataset Local Categories
-	In [dataset_local_categories.json](https://s3-eu-west-1.amazonaws.com/dexter-pages/dataset_local_categories.json)
+## Dataset Local Categories [Link](https://s3-eu-west-1.amazonaws.com/dexter-pages/dataset_local_categories.json)
+	In dataset_local_categories.json
 
 We present the locale categories crawled directly from the discovered websites. The file is a nested json that is organised as follows:
 <pre>
