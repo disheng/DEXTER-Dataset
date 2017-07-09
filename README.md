@@ -9,7 +9,7 @@ of Product Specifications on the Web
 [link](http://www.vldb.org/pvldb/vol8/p2194-qiu.pdf)
 
 The dataset presents HTML pages collected by our 
-focused crawler. The dataset is organised under the bucket dexter-pages in the 
+focused crawler. The dataset is organised under the bucket [dexter-pages](https://s3-eu-west-1.amazonaws.com/dexter-pages/) in the 
 following folders:
 
 1. data
